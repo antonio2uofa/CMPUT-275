@@ -1,0 +1,9 @@
+Name: Antonio Martin-ozimek
+SID: 1658820
+CCID: antonio2
+Assignment #1: Part 2
+
+To run the program it is necessary to type "make clean" then "make run" to ensure there are no already opened pipes. The program will then compile and open a new terminal for the outpipe and inpipe. Then a pygame program will open up that allows one to choose a starting coordinate and an ending coordinate. One of the terminals will then output the coordinates of each vertex that connects the two points together. After the last point, the character 'E' is written to the terminal. If the end point does not exist only 'E' will be written to outpipe and then displayed. Furthermore, if the pygame graph is closed then the character 'Q' is written to outpipe and the pipes are closed and unlinked.
+
+Assumptions Made:
+Assume that the soln/ directory can be accessed when uploaded to git.
